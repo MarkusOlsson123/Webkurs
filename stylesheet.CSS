@@ -1,31 +1,19 @@
 body {
-    background-color: cornflowerblue;
+    background-image: url(Background.png);
+    background-size: contain"
+    
 }
 
-img {
-    margin: 50px 25px;
-    width: 50px;
+
+.Cars{
+margin: 20px;
+width: 200px;
+
 }
 
-img{
-    width: 150px;
-}
-
-.särskild:hover {
-    width: 100px;
-}
-
-#id1{
-    width: 75px;
-    float: right;
-}
-
-.bilder{
-    background-color: aquamarine;
-}
 p.img{
-    width: 20px;
-    margin: 0px;
+    width: 50px;
+    margin: 50x;
 }
 
 a{
@@ -37,4 +25,35 @@ a{
 
 a :hover{
     background-color: darkorange;
+}
+.Galleri{
+    
+    margin: 100px;
+    align-self: center;
+    text-align: center;
+ 
+    
+    border-width: 20px;
+    border-style: solid;
+    border-color: black;
+    
+}
+
+#Galleri2{
+    margin: 100px;
+    align-self: center;
+    text-align: center;
+ 
+    
+    border-width: 20px;
+    border-style: dotted;
+    border-color: coral;
+}
+
+h1{
+    text-align: center;
+}
+
+#info{
+    text-align: center;
 }
