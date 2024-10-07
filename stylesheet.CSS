@@ -1,14 +1,31 @@
 body {
-    background-image: url(Background.png);
-    background-size: contain"
-    
+background-color: slategray;
+text-align: center;
+align-items: center;
 }
 
+.topRated{
+    margin: 20px;
+    width: 200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
 
-.Cars{
-margin: 20px;
-width: 200px;
+.highRated{
+    margin: 20px;
+    width: 150px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
 
+.lowRated{
+    margin: 20px;
+    width: 100px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 p.img{
@@ -17,43 +34,85 @@ p.img{
 }
 
 a{
+    margin:auto;
     font-style: normal;
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
+    
 }
 
 a :hover{
     background-color: darkorange;
 }
+
 .Galleri{
     
-    margin: 100px;
-    align-self: center;
-    text-align: center;
- 
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: fit-content;
     
-    border-width: 20px;
+
+
+    padding: 50px;
+          
+    border-width: 10px;
     border-style: solid;
     border-color: black;
     
 }
 
-#Galleri2{
-    margin: 100px;
-    align-self: center;
-    text-align: center;
- 
-    
-    border-width: 20px;
-    border-style: dotted;
-    border-color: coral;
-}
-
 h1{
     text-align: center;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    color: tomato;
 }
 
 #info{
     text-align: center;
+    margin: 20px;
+    
+}
+footer{
+background-color:aliceblue;
+text-align: center;
+height: 150px;
+}
+.footerText{
+    color: aliceblue;
+    background-color: aquamarine;
+    
+
+}
+.footerBox{
+    background-color: blue;
+    width: min-content;
+    
+}
+header{
+    background-color: aliceblue;
+    padding: 25px;
+    text-align: center;
+    
+}
+textarea{
+    resize: none;
+}
+p{
+    margin: 0px;
+}
+#headerLinks{
+    margin-top: 50px;
+    margin-bottom: 10px;
+   
+    width: fit-content;
+    font-size: larger;
+    font-style: italic;
+    text-decoration:underline
+
+}
+.logoType{
+    vertical-align: bottom;
 }
